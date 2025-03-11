@@ -1,0 +1,174 @@
+html {
+    font-family: 'Arial', sans-serif;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: #1565c0;
+}
+
+/*!*Bold*!*/
+/*b {*/
+/*    font-weight: 900;*/
+/*}*/
+
+body.home {
+    background-image: url("background.jpeg");
+}
+
+body.papers {
+    margin-bottom: 100px;
+}
+
+/* CSS for the navigation bar */
+.navbar {
+    background-color:  #FFE6EE;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-family: 'Delius'
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Delius';
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 30px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: bold;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+a:hover {
+    color: #3b21e77c;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) ;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5em;
+}
+
+.content p {
+    text-align: justify;
+    max-width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.avatar {
+    border-radius: 30%;
+    width: 550px;
+    filter: grayscale(100%);
+}
+
+
+
+.icons {
+    list-style-type: none;
+    font-size: xx-large;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 320px;
+    margin: 1em auto;
+}
+
+.icons li {
+    display: inline;
+    width: 42px;
+}
+
+.icons a {
+    color: black;
+}
+
+.icons a:hover {
+    color: #3b21e77c;
+}
+
+.paper-entry {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    text-align: justify;
+    padding-top: 100px;
+}
+
+.paper-entry img {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.reference h3 {
+    width: 600px;
+    margin: 1em auto;
+}
+
+.reference p {
+    width: 600px;
+    text-align: justify;
+    margin: 1em auto;
+}
+
+section {
+    padding: 60px 60px;
+    background: white;
+    margin: 20px auto;
+    width: 90%;
+    border-radius: 10px;
+    display: inline-flex;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+}
+
+.school{
+    display: inline-block;
+    width: 80%;
+    margin: 15px;
+    padding: 50px;
+    background: #f3f3f3;
+    border-radius: 10px;
+}
+
+.school img {
+    width: auto;
+    height: 75px;
+    margin: auto;
+    display: block;
+}
