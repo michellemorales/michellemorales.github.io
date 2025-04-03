@@ -27,7 +27,7 @@ body.papers {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    margin-right:0px;
     font-family: 'Delius';
 }
 
@@ -189,6 +189,7 @@ section img {
         width: 100%;
     }
 
+
     nav ul {
         display: none;
         flex-direction: column;
@@ -211,6 +212,7 @@ section img {
 
     .menu-toggle {
         display: flex;
+        padding: 5px 5px;
     }
 
     /* School divs adjustments for smaller screens */
