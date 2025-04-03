@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Define title -->
-  <title>Michelle Morales, Ph.D.</title>
+  <title>Michelle Morales, PhD</title>
 
   <!-- Include favicon. Use, e.g., https://favicon.io/ -->
   <link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32" />
@@ -34,13 +34,15 @@
           integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg=="
           crossorigin="anonymous"
   />
+
 </head>
 <body>
 
 <header>
   <div class="navbar">
-    <div class="title">Michelle Morales, Ph.D. </div>
-    <nav>
+    <div class="title">Michelle Morales, PhD </div>
+    <button class="menu-toggle">&#9776;</button>
+    <nav id="nav-menu">
       <ul>
         <li><a href="index.html">about</a></li>
         <li><a href="teaching.html">teaching</a></li>
@@ -52,9 +54,9 @@
   </div>
 </header>
 <div class="section">
-  <!--Clarity Paper AI Magazine-->
-  <div class="paper-entry">
-    <img src="images/michelle.png" alt="Michelle">
+  <!--Bio Picture and description-->
+  <div class="paper-entry" id="bio-pic-container">
+    <img id="bio-pic" src="images/michelle.png" alt="Michelle Bio Pic">
     <div class="reference">
       <p>
         Hi there. I am Professor Morales, a computational linguist passionate about building language technologies to help make people feel better. I am especially interested in studying how we can build safe and responsible AI applications. I currently teach Data Science and AI courses at Farmingdale State College and Columbia University.
@@ -63,14 +65,6 @@
   </div>
 
 </div>
-<!--<div class="content">-->
-<!--  &lt;!&ndash; Avatar image &ndash;&gt;-->
-<!--  <img src="images/michelle-image.jpg" alt="Michelle Morales" class="avatar" />-->
-
-<!--  &lt;!&ndash; Text &ndash;&gt;-->
-<!--  <p>-->
-<!--    Hi there 👋 I am Professor Morales, a computational linguist passionate about building language technologies to help make people feel better. I am especially interested in studying how we can build safe and responsible AI applications. I currently teach Data Science and AI courses at Farmingdale State College and Columbia University.-->
-<!--  </p>-->
-<!--</div>-->
+<script src="script.js"></script>
 </body>
 </html>
